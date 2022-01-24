@@ -1,0 +1,41 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.in input, .in select [type=text], .se {
+    text-align: center;
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.gumb {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.in button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  text-align: center;
+    margin-left: 10px;
+  margin-right: 10px;
+  width: 70%;
+  border-radius: 5px;
+  background-color: #a0a0a0;
+  padding: 20px;
+}
+
+.left{
+    text-align: left;
+}
